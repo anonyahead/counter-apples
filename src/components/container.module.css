@@ -1,0 +1,47 @@
+.wholeContainer {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.leftContainer, .rightContainer {
+  width: 30%;
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.midContainer {
+  position: relative;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftButton, .rightButton {
+  width: 40%;
+  margin: 20px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.leftButton:hover, .rightButton:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.leftButton:active, .rightButton:active {
+  background-color: #004494;
+  transform: translateY(0);
+}
